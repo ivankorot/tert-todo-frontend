@@ -1,0 +1,82 @@
+.Rectangle {
+    width: 440px;
+    margin-top: 120px;
+    padding: 35px 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.Rectangle-Wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+img.Group {
+    width: 40px;
+    height: 32px;
+    margin: 0 19px 25px 0;
+    object-fit: contain;
+    display: flex;
+}
+
+.Todo-List {
+    width: 130px;
+    height: 28px;
+    margin: 25px 72.5px 35px 0.5px;
+    font-family: MarkPro;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1f2a4b;
+}
+
+.Add-a-new-todo {
+    width: 100%;
+    height: 35px;
+    font-family: MarkPro;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #9ea3b2;
+    border: none;
+    border-bottom: solid 1px #d7dae0;
+}
+
+input:focus{
+    outline: none;
+}
+
+.Make-a-todo-list {
+    font-family: MarkPro;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1f2a4b;
+}
+
+img.Path-Copy {
+    width: 11px;
+    height: 11px;
+    object-fit: contain;
+}
+
+.Todo-Item-Wrapper{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

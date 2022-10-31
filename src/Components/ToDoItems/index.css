@@ -1,0 +1,45 @@
+.Make-a-todo-list {
+    font-family: MarkPro;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1f2a4b;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.Text-Wrapper{
+    display: flex;
+}
+
+.Back-Button {
+    font-family: MarkPro;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1f2a4b;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.Back-Button:hover {
+    color: black;
+}
+
+.Filter-Wrapper {
+    margin-top: 35px;
+    display: flex;
+    justify-content: left;
+}
+
+.Filter {
+    cursor: pointer;
+    margin-left: 10px;
+}
